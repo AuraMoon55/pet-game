@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="AuraMoon55" />
+    <meta name="description" content="A Pet Game" />
+    <title>Pet Game</title>
+  </head>
+  <body>
+    <div class="pet-name">
+      <h1 align="center">{{pet.name}}</h1>
+      <p class="pet-owner" align="center">{{pet.owner}}</p>
+    </div>
+    <div align="center" class="pet-img">
+      <img src="{{pet.img}}">
+    </div>
+    <br>
+    <br>
+    <div align="center" class="pet-stats">
+      <p align="center"><strong>STATS</strong><p>
+      <table style="width:70%">
+        <br>
+        <tr align="center">
+          <th>Health</th>
+          <td>{{pet.health}}</td>
+        </tr>
+        <br>
+        <tr align="center">
+          <th>Happiness</th>
+          <td>{{pet.happy}}</td>
+        </tr>
+        <br>
+        <tr align="center">
+          <th>Age</th>
+          <td>{{pet.age}}</td>
+        </tr>
+        <br>
+        <tr align="center">
+          <th>Lvl</th>
+          <td>{{pet.lvl}}</td>
+        </tr>
+        <br>
+      </table>
+    </div>
+  </body>
+</html>
